@@ -1,5 +1,44 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-secure-systems-lab-go-securesystemslib (0.8.0-2) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Upload to unstable.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Simon Josefsson <simon@josefsson.org>  Wed, 24 Jan 2024 16:19:37 +0100
+
+golang-github-secure-systems-lab-go-securesystemslib (0.8.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Bump Breaks to sigstore/sigstore
+
+ -- Simon Josefsson <simon@josefsson.org>  Tue, 16 Jan 2024 23:40:20 +0100
+
+golang-github-secure-systems-lab-go-securesystemslib (0.7.0-3) unstable; urgency=medium
+
+  * Add Breaks to containers/image, sigstore/sigstore dev packages
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sat, 28 Oct 2023 10:10:14 -0400
+
+golang-github-secure-systems-lab-go-securesystemslib (0.7.0-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Reinhard Tartler <siretart@tauware.de>  Fri, 27 Oct 2023 10:14:54 -0400
+
+golang-github-secure-systems-lab-go-securesystemslib (0.7.0-1) experimental; urgency=medium
+
+  * New upstream version 0.7.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Tue, 24 Oct 2023 06:12:15 -0400
+
+golang-github-secure-systems-lab-go-securesystemslib (0.4.0-2) unstable; urgency=medium
+
+  * Source-only reupload to unstable, no changes
+
+ -- Reinhard Tartler <siretart@tauware.de>  Wed, 13 Sep 2023 06:43:44 -0400
+
+golang-github-secure-systems-lab-go-securesystemslib (0.4.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1030555)
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sat, 04 Feb 2023 19:03:23 -0500
