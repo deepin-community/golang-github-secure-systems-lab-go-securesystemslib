@@ -1,4 +1,10 @@
 #!/usr/bin/make -f
 
+export DH_GOLANG_INSTALL_EXTRA := signerverifier/test-data
+
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
+
+override_dh_auto_test:
+	DH_GOLANG_EXCLUDES=dsse \
+	dh_auto_test -O--builddirectory=_build -O--buildsystem=golang
